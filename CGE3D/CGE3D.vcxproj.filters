@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="draw">
+      <UniqueIdentifier>{216a36e1-70ca-409b-bc8f-21d6570e7e5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game_logic_control">
+      <UniqueIdentifier>{e6119076-e39d-44b2-a7f2-0824474c4379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="parse">
+      <UniqueIdentifier>{a178da2e-6952-4ef8-a3e8-b42f44391964}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physical_effect_control">
+      <UniqueIdentifier>{ff92e8aa-c27d-46e2-9b6e-e298304ff235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="store">
+      <UniqueIdentifier>{79ccc059-a241-44dd-99cf-fabed5406efc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="component">
+      <UniqueIdentifier>{324c25a9-ae27-41f3-b26f-b4e06efa00a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global_valuable">
+      <UniqueIdentifier>{c9dc8429-3556-4378-aafb-f55d510d30a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cge3dinit">
+      <UniqueIdentifier>{271ecf11-7e19-4d68-a97b-40473c4412f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="element">
+      <UniqueIdentifier>{f97e4f36-b8c9-4384-b74c-3e607e889dbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glsl">
+      <UniqueIdentifier>{abe78ebe-89bd-4b3c-962d-6986290a4b75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tool">
+      <UniqueIdentifier>{6582f140-be3d-4a4b-820f-71d0d1f8b8a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="code\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\glad.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="code\component\Window.cpp">
+      <Filter>component</Filter>
+    </ClCompile>
+    <ClCompile Include="code\global_valuable\Global_valuable.cpp">
+      <Filter>Global_valuable</Filter>
+    </ClCompile>
+    <ClCompile Include="code\parse\model_parse.cpp">
+      <Filter>parse</Filter>
+    </ClCompile>
+    <ClCompile Include="code\element\model.cpp">
+      <Filter>element</Filter>
+    </ClCompile>
+    <ClCompile Include="code\element\mesh.cpp">
+      <Filter>element</Filter>
+    </ClCompile>
+    <ClCompile Include="code\element\shader.cpp">
+      <Filter>element</Filter>
+    </ClCompile>
+    <ClCompile Include="code\tool\image.cpp">
+      <Filter>tool</Filter>
+    </ClCompile>
+    <ClCompile Include="code\tool\c_math.cpp">
+      <Filter>tool</Filter>
+    </ClCompile>
+    <ClCompile Include="code\element\texture.cpp">
+      <Filter>element</Filter>
+    </ClCompile>
+    <ClCompile Include="code\element\mtllib.cpp">
+      <Filter>element</Filter>
+    </ClCompile>
+    <ClCompile Include="code\element\mtl.cpp">
+      <Filter>element</Filter>
+    </ClCompile>
+    <ClCompile Include="code\element\object.cpp">
+      <Filter>element</Filter>
+    </ClCompile>
+    <ClCompile Include="code\element\camera.cpp">
+      <Filter>element</Filter>
+    </ClCompile>
+    <ClCompile Include="code\draw\scene.cpp">
+      <Filter>draw</Filter>
+    </ClCompile>
+    <ClCompile Include="code\store\store.cpp">
+      <Filter>store</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\Global_config.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\config.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="code\draw\scene.h">
+      <Filter>draw</Filter>
+    </ClInclude>
+    <ClInclude Include="code\component\Window.h">
+      <Filter>component</Filter>
+    </ClInclude>
+    <ClInclude Include="code\global_valuable\Global_valuable.h">
+      <Filter>Global_valuable</Filter>
+    </ClInclude>
+    <ClInclude Include="code\parse\model_parse.h">
+      <Filter>parse</Filter>
+    </ClInclude>
+    <ClInclude Include="code\element\model.h">
+      <Filter>element</Filter>
+    </ClInclude>
+    <ClInclude Include="code\element\mesh.h">
+      <Filter>element</Filter>
+    </ClInclude>
+    <ClInclude Include="code\element\shader.h">
+      <Filter>element</Filter>
+    </ClInclude>
+    <ClInclude Include="code\tool\image.h">
+      <Filter>tool</Filter>
+    </ClInclude>
+    <ClInclude Include="code\tool\c_math.h">
+      <Filter>tool</Filter>
+    </ClInclude>
+    <ClInclude Include="code\element\texture.h">
+      <Filter>element</Filter>
+    </ClInclude>
+    <ClInclude Include="code\element\mtllib.h">
+      <Filter>element</Filter>
+    </ClInclude>
+    <ClInclude Include="code\element\mtl.h">
+      <Filter>element</Filter>
+    </ClInclude>
+    <ClInclude Include="code\element\object.h">
+      <Filter>element</Filter>
+    </ClInclude>
+    <ClInclude Include="code\element\camera.h">
+      <Filter>element</Filter>
+    </ClInclude>
+    <ClInclude Include="code\store\store.h">
+      <Filter>store</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="code\glsl\shader.vert">
+      <Filter>glsl</Filter>
+    </None>
+    <None Include="code\glsl\shader.frag">
+      <Filter>glsl</Filter>
+    </None>
+    <None Include="code\glsl\shader_2.frag">
+      <Filter>glsl</Filter>
+    </None>
+    <None Include="code\glsl\shader_2.vert">
+      <Filter>glsl</Filter>
+    </None>
+  </ItemGroup>
+</Project>

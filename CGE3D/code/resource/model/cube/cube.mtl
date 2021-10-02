@@ -1,0 +1,5 @@
+#this is a mtl file
+newmtl cube
+map_Kd container.jpg
+map_Ks container2.png
+map_Ka awesomeface.png
